@@ -12,3 +12,21 @@ body {
   @apply font-sans;
 }
 
+.outlined-text {
+  color: transparent;
+  -webkit-text-stroke: 2px #fbbf24;
+  background: linear-gradient(to right, #00B4FD, #003ACE);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.gradient-stroke {
+  color: rgba(0,0,0,0);
+
+  background: linear-gradient(to bottom, #00B4FD, #010d2b);
+  -webkit-background-clip: text;
+  background-clip: text;
+  overflow: show;
+
+  -webkit-text-stroke: 2px transparent;
+}
